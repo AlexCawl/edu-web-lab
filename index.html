@@ -3,13 +3,25 @@
 <head>
     <meta charset="UTF-8"/>
     <link rel="icon" type="image/svg+xml" href="assets/icons/logo.svg"/>
-    <link rel="stylesheet" href="index.less">
+    <link rel="stylesheet" href="index.scss">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Bicycle Ride</title>
 </head>
 <body>
 <header>
-    <div class="header-content-lg">
+    <div class="container visible-xl">
+        <div class="row">
+            <img src="assets/icons/big_logo.svg" alt="Bicycle Ride" class="col-3">
+            <div class="col-6" style="background: yellow"></div>
+            <button class="col-1">
+                Log in
+            </button>
+            <button class="col-2">
+                Register
+            </button>
+        </div>
+    </div>
+    <div class="container visible-lg">
         <div class="row">
             <img src="assets/icons/big_logo.svg" alt="Bicycle Ride" class="col-3">
             <div class="col-6" style="background: blue"></div>
@@ -21,10 +33,10 @@
             </button>
         </div>
     </div>
-    <div class="header-content-md">
+    <div class="container visible-md">
         <div class="row">
             <img src="assets/icons/medium_logo.svg" alt="Bicycle Ride" class="col-3">
-            <div class="col-6" style="background: blue"></div>
+            <div class="col-6" style="background: red"></div>
             <button class="col-1">
                 Log in
             </button>
@@ -33,6 +45,9 @@
             </button>
         </div>
     </div>
+    <button class="test">
+        TEXT
+    </button>
 </header>
 </body>
 </html>
