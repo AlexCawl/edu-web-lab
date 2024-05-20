@@ -1,0 +1,11 @@
+@import "theme";
+
+button {
+  background-color: $color-green;
+  border: none;
+  color: $color-light-gray;
+  font: $font-title;
+  cursor: pointer;
+  border-radius: 25%;
+  display: inline-block;
+}

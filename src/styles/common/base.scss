@@ -1,0 +1,30 @@
+@import "theme";
+
+:root {
+  font: $font-text;
+  background: $color-light-gray;
+
+  h1 h2 h3 {
+    font: $font-title;
+  }
+
+  p {
+    font: $font-text;
+  }
+
+  span {
+    font: $font-display;
+  }
+}
+
+.flex-container {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.flex-item {
+  flex: 1;
+}

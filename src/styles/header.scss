@@ -1,0 +1,14 @@
+@import "bootstrap/scss/bootstrap";
+@import "common/theme";
+@import "common/screens";
+
+header {
+  height: 15%;
+  position: sticky;
+  box-shadow: 0 -6px 10px 5px $color-gray;
+  padding: 16px 0 16px 0;
+}
+
+.header-container {
+  @extend .container;
+}

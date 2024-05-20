@@ -1,24 +1,27 @@
 @import "bootstrap/scss/bootstrap";
 @import "theme";
 
-// Selectors for particular screen size
-
 .visible-xl {
   @extend .d-none, .d-xl-block;
+  font-size: $size-xl;
 }
 
 .visible-lg {
   @extend .d-none, .d-lg-block, .d-xl-none;
+  font-size: $size-lg;
 }
 
 .visible-md {
   @extend .d-none, .d-md-block, .d-lg-none;
+  font-size: $size-md;
 }
 
 .visible-sm {
   @extend .d-none, .d-sm-block, .d-md-none;
+  font-size: $size-sm;
 }
 
 .visible-xs {
-  @extend .d-none, .d-sm-block, .d-sm-none;
+  @extend .d-block, .d-sm-none;
+  font-size: $size-xs;
 }

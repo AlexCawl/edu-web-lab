@@ -1,28 +1,23 @@
-:root {
-  $text: 'Roboto', sans-serif;
-  $title: 'Montserrat', sans-serif;
-  $display: 'Red Rose', sans-serif;
+// [Fonts]
+$text: 'Roboto', sans-serif;
+$title: 'Montserrat', sans-serif;
+$display: 'Redrose', sans-serif;
 
-  // Fonts && Text sizes
-  $font-h1: normal 900 44px/48px $title;
-  $font-h2: normal 800 44px/48px $title;
-  $font-h3: normal 700 24px/28px $title;
+// [Font sizes]
+$font-text: normal 400 1rem/1.5rem $text;
+$font-title: normal 600 2rem/2.5rem $title;
+$font-display: normal 500 1rem/1.5rem $display;
 
-  $font-text: normal 400 15px/24px $text;
-  $font-text-m: normal 800 24px/32px $text;
-  $font-text-s: $text;
-  $font-text-xs: normal 400 13px/20px $text;
+// [Sizes]
+$size-xl: 32px;
+$size-lg: 24px;
+$size-md: 16px;
+$size-sm: 12px;
+$size-xs: 8px;
 
-  // Sizes
-  $radius-l: 24px;
-  $radius-m: 16px;
-  $radius-s: 8px;
-  $radius-xs: 4px;
-
-  // Colors
-  $color-black: #0D0A0B;
-  $color-gray: #454955;
-  $color-light-gray: #F3EFF5;
-  $color-light-green: #72B01D;
-  $color-green: #3F7D20;
-}
+// [Colors]
+$color-black: #0D0A0B;
+$color-gray: #454955;
+$color-light-gray: #F3EFF5;
+$color-light-green: #72B01D;
+$color-green: #3F7D20;
