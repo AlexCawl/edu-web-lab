@@ -1,11 +1,39 @@
 @import "theme";
 
-button {
-  background-color: $color-green;
+$button-radius: 16px;
+$button-padding: 12px;
+
+.base-button {
   border: none;
-  color: $color-light-gray;
   font: $font-title;
   cursor: pointer;
-  border-radius: 25%;
-  display: inline-block;
+  border-radius: $button-radius;
+  padding: $button-padding;
+}
+
+.action-button {
+  @extend .base-button;
+
+  background-color: $color-green;
+  color: $color-light-gray;
+}
+
+.outline-button {
+  @extend .base-button;
+
+  background-color: $color-light-gray;
+  outline-color: $color-light-green;
+  color: $color-black;
+}
+
+.base-text {
+  font: $font-text;
+  color: $color-black;
+}
+
+.accent-text {
+  @extend .base-text;
+
+  font: $font-title;
+  color: $color-light-green;
 }

@@ -17,14 +17,16 @@
   }
 }
 
-.flex-container {
+.flexer-row {
   display: flex;
-  align-content: center;
-  justify-content: center;
-  height: 100%;
-  width: 100%;
+  flex-direction: row;
 }
 
-.flex-item {
-  flex: 1;
+.flexer-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flexchild {
+  flex: auto;
 }
