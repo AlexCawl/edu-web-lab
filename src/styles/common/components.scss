@@ -37,3 +37,10 @@ $button-padding: 12px;
   font: $font-title;
   color: $color-light-green;
 }
+
+.image-text {
+  @extend .base-text;
+
+  font: $font-title;
+  color: $color-light-gray;
+}

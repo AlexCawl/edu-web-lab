@@ -1,3 +1,13 @@
 @import "bootstrap/scss/bootstrap";
 @import "common/theme";
 
+.hero {
+  padding: 16px 0 16px 0;
+  width: 100%;
+}
+
+.hero-container {
+  background-image: url("assets/images/hero_picture.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
