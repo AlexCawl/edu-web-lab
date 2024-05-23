@@ -1,20 +1,8 @@
 @import "common/theme";
 
 :root {
-  font: $font-text;
-  background: $color-light-gray;
-
-  h1 h2 h3 {
-    font: $font-title;
-  }
-
-  p {
-    font: $font-text;
-  }
-
-  span {
-    font: $font-display;
-  }
+  font-family: $font-text;
+  background: white;
 }
 
 .flex-row {
@@ -57,11 +45,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-section {
-  padding: 64px 0 64px 0;
-  width: 100%;
 }
 
 .hero-img-container {
