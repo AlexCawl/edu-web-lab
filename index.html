@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Bicycle Ride</title>
 </head>
-<header>
+<body>
+<header style="background: white" id="HEADER">
     <div class="container visible-xl">
         <div class="row">
             <img class="col-3" src="assets/icons/medium_logo.svg" alt="Bicycle Ride">
@@ -109,7 +110,7 @@
             <div class="col-8">
                 <div class="horizontal-container">
                     <div class="horizontal-container-item">
-                        <a class="accent-text">Features</a>
+                        <a class="accent-text" href="#HERO-SECTION">Features</a>
                     </div>
                     <div class="horizontal-container-item">
                         <a class="accent-text">Pricing</a>
@@ -146,9 +147,8 @@
         </div>
     </div>
 </header>
-<body>
 <div class="flex-column">
-    <section>
+    <section id="HERO-SECTION">
         <div class="visible-xl hero-img-container">
             <div class="container">
                 <div class="row">
@@ -254,7 +254,7 @@
         </div>
         <div class="row">
             <div class="col-6">
-                <div class="card flex-column" style="padding: 16px; background: #454955; row-gap: 16px">
+                <div class="item-card flex-column">
                     <img src="assets/images/hero_picture_alt.jpg" alt="" style="width: 100%">
                     <div class="box">
                         <h3>Sed ut perspiciatis</h3>
@@ -266,7 +266,7 @@
                 </div>
             </div>
             <div class="col-6">
-                <div class="card flex-column" style="padding: 16px; background: #454955; row-gap: 16px">
+                <div class="item-card flex-column">
                     <img src="assets/images/hero_picture_alt.jpg" alt="" style="width: 100%">
                     <div class="box">
                         <h3>Sed ut perspiciatis</h3>
@@ -327,7 +327,7 @@
 </body>
 <footer>
     <div class="visible-xl container">
-        <div class="row">
+        <div class="row" style="justify-content: center; align-items: center">
             <img src="assets/icons/big_logo.svg" alt="" class="col-3">
             <div class="col-7 flex-row">
                 <div class="flex-column" style="width: 100%">
@@ -356,9 +356,10 @@
                 </div>
             </div>
         </div>
-        <div class="row">
+        <div style="width: 100%; background: #454955; height: 1px; margin-bottom: 24px; margin-top: 24px"></div>
+        <div class="row" style="justify-content: center; align-items: center">
             <div class="box col-6">
-                <h1>© BicycleRide, Inc. 2024. We love our users!</h1>
+                <h2>© BicycleRide, Inc. 2024. We love our users!</h2>
             </div>
             <h3 class="col-2">Follow us:</h3>
             <img src="assets/images/hero_picture_alt.jpg" alt="" class="col-1">
