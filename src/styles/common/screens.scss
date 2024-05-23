@@ -1,27 +1,71 @@
 @import "bootstrap/scss/bootstrap";
 @import "theme";
 
+// [Padding sizes]
+$size-xl: 128px;
+$size-lg: 96px;
+$size-md: 96px;
+$size-sm: 48px;
+$size-xs: 36px;
+
 .visible-xl {
   @extend .d-none, .d-xl-block;
-  font-size: $size-xl;
+
+  font-size: $font-size-xl;
+  padding: $size-xl 0 $size-xl 0;
 }
 
 .visible-lg {
   @extend .d-none, .d-lg-block, .d-xl-none;
-  font-size: $size-lg;
+
+  font-size: $font-size-lg;
+  padding: $size-lg 0 $size-lg 0;
 }
 
 .visible-md {
   @extend .d-none, .d-md-block, .d-lg-none;
-  font-size: $size-md;
+
+  font-size: $font-size-md;
+  padding: $size-md 0 $size-md 0;
 }
 
 .visible-sm {
   @extend .d-none, .d-sm-block, .d-md-none;
-  font-size: $size-sm;
+
+  font-size: $font-size-sm;
+  padding: $size-sm 0 $size-sm 0;
 }
 
 .visible-xs {
   @extend .d-block, .d-sm-none;
-  font-size: $size-xs;
+
+  font-size: $font-size-xs;
+  padding: $size-xs 0 $size-xs 0;
+}
+
+// [Header padding sizes]
+$h-size-xl: 36px;
+$h-size-lg: 24px;
+$h-size-md: 20px;
+$h-size-sm: 16px;
+$h-size-xs: 8px;
+
+#HEADER .visible-xl {
+  padding: $h-size-xl 0 $h-size-xl 0;
+}
+
+#HEADER .visible-lg {
+  padding: $h-size-lg 0 $h-size-lg 0;
+}
+
+#HEADER .visible-md {
+  padding: $h-size-md 0 $h-size-md 0;
+}
+
+#HEADER .visible-sm {
+  padding: $h-size-sm 0 $h-size-sm 0;
+}
+
+#HEADER .visible-xs {
+  padding: $h-size-xs 0 $h-size-xs 0;
 }

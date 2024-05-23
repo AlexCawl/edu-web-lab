@@ -71,17 +71,10 @@ section {
 }
 
 header {
-  height: 15%;
   position: sticky;
   top: 0;
   box-shadow: 0 -6px 10px 5px $color-gray;
-  padding: 16px 0 16px 0;
   background: white;
-}
-
-footer {
-  height: 15%;
-  padding: 16px 0 16px 0;
 }
 
 body {
