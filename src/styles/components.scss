@@ -15,6 +15,11 @@ $button-padding: 12px;
 
   background-color: $color-green;
   color: $color-light-gray;
+
+  &:hover {
+    background-color: $color-light-green;
+    transition: all 1s ease;
+  }
 }
 
 .outline-button {
@@ -61,4 +66,17 @@ $card-padding: 16px;
   padding: $card-padding;
   background-color: $color-light-gray;
   row-gap: $card-padding;
+}
+
+.review-card {
+  @extend .flex-column;
+
+  row-gap: $card-padding;
+}
+
+.review-image {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
 }

@@ -8,7 +8,7 @@
     <title>Bicycle Ride</title>
 </head>
 <body>
-<header style="background: white" id="HEADER">
+<header id="HEADER">
     <div class="container visible-xl">
         <div class="row">
             <img class="col-3" src="assets/icons/medium_logo.svg" alt="Bicycle Ride">
@@ -29,7 +29,7 @@
                 </div>
             </div>
             <div class="col-3">
-                <div class="horizontal-container">
+                <div class="box" style="column-gap: 16px">
                     <div class="horizontal-container-item">
                         <button class="outline-button">
                             Log in
@@ -46,7 +46,7 @@
     </div>
     <div class="container visible-lg">
         <div class="row">
-            <img src="assets/icons/medium_logo.svg" alt="Bicycle Ride" class="col-4">
+            <img src="assets/icons/small_logo.svg" alt="Bicycle Ride" class="col-4">
             <div class="col-6">
                 <div class="horizontal-container">
                     <div class="horizontal-container-item">
@@ -94,7 +94,7 @@
                 </div>
             </div>
             <div class="col-2">
-                <div class="horizontal-container" style="column-gap: 24px">
+                <div class="horizontal-container">
                     <div class="horizontal-container-item">
                         <button class="outline-button">
                             Log in
@@ -110,7 +110,7 @@
             <div class="col-8">
                 <div class="horizontal-container">
                     <div class="horizontal-container-item">
-                        <a class="accent-text" href="#HERO-SECTION">Features</a>
+                        <a class="accent-text" href="#HERO">Features</a>
                     </div>
                     <div class="horizontal-container-item">
                         <a class="accent-text">Pricing</a>
@@ -126,12 +126,12 @@
         </div>
     </div>
     <div class="container visible-xs">
-        <div class="row" style="row-gap: 8px">
-            <img src="assets/icons/small_logo.svg" alt="Bicycle Ride" class="col-6">
+        <div class="row">
+            <img src="assets/icons/small_logo.svg" alt="Bicycle Ride" class="col-4">
             <div class="col-8">
                 <div class="horizontal-container">
                     <div class="horizontal-container-item">
-                        <a class="accent-text">Features</a>
+                        <a class="accent-text" href="#HERO">Features</a>
                     </div>
                     <div class="horizontal-container-item">
                         <a class="accent-text">Pricing</a>
@@ -147,104 +147,104 @@
         </div>
     </div>
 </header>
-<div class="flex-column">
-    <section id="HERO-SECTION">
-        <div class="visible-xl hero-img-container">
-            <div class="container">
-                <div class="row">
-                    <div class="col-6" style="height: 700px">
-                        <div class="vertical-container" style="height: 100%">
-                            <div>
-                                <h1 class="image-text">Accelerate towards pure nature on the fastest bike!</h1>
-                                <button class="action-button">Rent now</button>
-                            </div>
+<section id="HERO">
+    <div class="visible-xl hero-img-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-6" style="height: 700px">
+                    <div class="vertical-container" style="height: 100%">
+                        <div>
+                            <h1 class="image-text">Accelerate towards pure nature on the fastest bike!</h1>
+                            <button class="action-button">Rent now</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="visible-lg">
-            <div class="container">
-                <div class="row">
-                    <div class="col-6" style="height: 500px">
-                        <div class="vertical-container" style="height: 100%">
-                            <div>
-                                <h1>Accelerate towards pure nature on the fastest bike!</h1>
-                                <button class="action-button">Rent now</button>
-                            </div>
+    </div>
+    <div class="visible-lg">
+        <div class="container">
+            <div class="row">
+                <div class="col-6" style="height: 500px">
+                    <div class="vertical-container" style="height: 100%">
+                        <div>
+                            <h1>Accelerate towards pure nature on the fastest bike!</h1>
+                            <button class="action-button">Rent now</button>
                         </div>
                     </div>
-                    <img src="assets/images/hero_picture_alt.jpg" alt="Bikers" class="col-6" style="object-fit: cover">
                 </div>
+                <img src="assets/images/hero_picture_alt.jpg" alt="Bikers" class="col-6" style="object-fit: cover">
             </div>
         </div>
-        <div class="visible-md hero-img-container">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12" style="height: 400px">
+    </div>
+    <div class="visible-md hero-img-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-12" style="height: 400px">
+                    <div class="vertical-container"
+                         style="height: 100%; justify-content: end; align-content: center">
                         <div class="vertical-container"
-                             style="height: 100%; justify-content: end; align-content: center">
-                            <div class="vertical-container"
-                                 style="align-content: center; justify-content: center; margin-bottom: 16px">
-                                <h1 class="image-text">Accelerate towards pure nature on the fastest bike!</h1>
-                                <button class="action-button">Rent now</button>
-                            </div>
+                             style="align-content: center; justify-content: center; margin-bottom: 16px">
+                            <h1 class="image-text">Accelerate towards pure nature on the fastest bike!</h1>
+                            <button class="action-button">Rent now</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="visible-sm">
-            <div class="container">
-                <div class="vertical-container" style="row-gap: 16px">
-                    <h1 class="col-12">Accelerate towards pure nature on the fastest bike!</h1>
-                    <button class="action-button col-6">Rent now</button>
-                    <img src="assets/images/hero_picture_alt.jpg" alt="Bikers" class="col-12" style="object-fit: cover">
+    </div>
+    <div class="visible-sm">
+        <div class="container">
+            <div class="vertical-container" style="row-gap: 16px">
+                <h1 class="col-12">Accelerate towards pure nature on the fastest bike!</h1>
+                <button class="action-button col-6">Rent now</button>
+                <img src="assets/images/hero_picture_alt.jpg" alt="Bikers" class="col-12" style="object-fit: cover">
+            </div>
+        </div>
+    </div>
+    <div class="visible-xs">
+        <div class="container">
+            <div class="vertical-container" style="row-gap: 8px">
+                <h1 class="col-12">Accelerate towards pure nature on the fastest bike!</h1>
+                <img src="assets/images/hero_picture_alt.jpg" alt="Bikers" class="col-12" style="object-fit: cover">
+                <div class="box col-12">
+                    <button class="action-button" style="width: 50%">Rent now</button>
                 </div>
             </div>
         </div>
-        <div class="visible-xs">
-            <div class="container">
-                <div class="vertical-container" style="row-gap: 8px">
-                    <h1 class="col-12">Accelerate towards pure nature on the fastest bike!</h1>
-                    <img src="assets/images/hero_picture_alt.jpg" alt="Bikers" class="col-12" style="object-fit: cover">
-                    <div class="box col-12">
-                        <button class="action-button" style="width: 50%">Rent now</button>
-                    </div>
-                </div>
+    </div>
+</section>
+<section id="FEATURES">
+    <div class="visible-xl container">
+        <div class="row" style="margin-bottom: 24px">
+            <h1 class="col-6">Why should you choose to rent a bike from us?</h1>
+        </div>
+        <div class="row" style="row-gap: 24px">
+            <div class="col-6 flex-column">
+                <h2>Sed ut perspiciatis</h2>
+                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
+                    magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.</p>
+            </div>
+            <div class="col-6">
+                <h2>Sed ut perspiciatis</h2>
+                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
+                    magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.</p>
+            </div>
+            <div class="col-6">
+                <h2>Sed ut perspiciatis</h2>
+                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
+                    magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.</p>
+            </div>
+            <div class="col-6">
+                <h2>Sed ut perspiciatis</h2>
+                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
+                    magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.</p>
             </div>
         </div>
-    </section>
-    <section>
-        <div class="visible-xl container">
-            <div class="row" style="margin-bottom: 24px">
-                <h1 class="col-6">Why should you choose to rent a bike from us?</h1>
-            </div>
-            <div class="row" style="row-gap: 24px">
-                <div class="col-6 flex-column">
-                    <h2>Sed ut perspiciatis</h2>
-                    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
-                        magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.</p>
-                </div>
-                <div class="col-6">
-                    <h2>Sed ut perspiciatis</h2>
-                    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
-                        magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.</p>
-                </div>
-                <div class="col-6">
-                    <h2>Sed ut perspiciatis</h2>
-                    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
-                        magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.</p>
-                </div>
-                <div class="col-6">
-                    <h2>Sed ut perspiciatis</h2>
-                    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
-                        magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="visible-xl container">
+    </div>
+</section>
+<section id="ASSORTMENT">
+    <div class="visible-xl container">
         <div class="row" style="margin-bottom: 24px">
             <h1 class="col-6">Our bicycles for urban infrastructure</h1>
         </div>
@@ -255,7 +255,7 @@
         <div class="row">
             <div class="col-6">
                 <div class="item-card flex-column">
-                    <img src="assets/images/hero_picture_alt.jpg" alt="" style="width: 100%">
+                    <img src="assets/images/bike_1.webp" alt="" style="width: 100%">
                     <div class="box">
                         <h3>Sed ut perspiciatis</h3>
                     </div>
@@ -267,7 +267,7 @@
             </div>
             <div class="col-6">
                 <div class="item-card flex-column">
-                    <img src="assets/images/hero_picture_alt.jpg" alt="" style="width: 100%">
+                    <img src="assets/images/bike_2.webp" alt="" style="width: 100%">
                     <div class="box">
                         <h3>Sed ut perspiciatis</h3>
                     </div>
@@ -278,36 +278,40 @@
                 </div>
             </div>
         </div>
-    </section>
-    <section class="visible-xl container">
+    </div>
+</section>
+<section id="REVIEWS">
+    <div class="visible-xl container">
         <div class="row" style="margin-bottom: 24px">
             <h1 class="col-6">Сustomer reviews about our bike rental service</h1>
         </div>
         <div class="row">
-            <div class="col-4 flex-column" style="row-gap: 16px">
-                <img src="assets/images/hero_picture_alt.jpg" alt="">
+            <div class="col-4 review-card" style="row-gap: 16px">
+                <img src="assets/images/avatar_1.jpg" alt="" style="width: 256px; height: 256px" class="review-image">
                 <h3>Sed ut perspiciatis</h3>
                 <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
                     consequuntur.</p>
                 <button class="outline-button" style="width: fit-content">Learn more</button>
             </div>
-            <div class="col-4 flex-column" style="row-gap: 16px">
-                <img src="assets/images/hero_picture_alt.jpg" alt="">
+            <div class="col-4 review-card" style="row-gap: 16px">
+                <img src="assets/images/avatar_2.jpg" alt="" style="width: 256px; height: 256px" class="review-image">
                 <h3>Sed ut perspiciatis</h3>
                 <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
                     consequuntur.</p>
                 <button class="outline-button" style="width: fit-content">Learn more</button>
             </div>
-            <div class="col-4 flex-column" style="row-gap: 16px">
-                <img src="assets/images/hero_picture_alt.jpg" alt="">
+            <div class="col-4 review-card" style="row-gap: 16px">
+                <img src="assets/images/avatar_3.jpg" alt="" style="width: 256px; height: 256px" class="review-image">
                 <h3>Sed ut perspiciatis</h3>
                 <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
                     consequuntur.</p>
                 <button class="outline-button" style="width: fit-content">Learn more</button>
             </div>
         </div>
-    </section>
-    <section class="visible-xl container">
+    </div>
+</section>
+<section id="ABOUT">
+    <div class="visible-xl container">
         <div class="box" style="margin-bottom: 24px">
             <h1>You’re in good company</h1>
         </div>
@@ -315,35 +319,34 @@
             <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</h3>
         </div>
         <div class="row">
-            <img src="assets/images/hero_picture_alt.jpg" alt="" class="col-2">
-            <img src="assets/images/hero_picture_alt.jpg" alt="" class="col-2">
-            <img src="assets/images/hero_picture_alt.jpg" alt="" class="col-2">
-            <img src="assets/images/hero_picture_alt.jpg" alt="" class="col-2">
-            <img src="assets/images/hero_picture_alt.jpg" alt="" class="col-2">
-            <img src="assets/images/hero_picture_alt.jpg" alt="" class="col-2">
+            <img src="assets/images/picture_1.jpg" alt="" class="col-2">
+            <img src="assets/images/picture_2.jpeg" alt="" class="col-2">
+            <img src="assets/images/picture_3.jpeg" alt="" class="col-2">
+            <img src="assets/images/picture_4.jpeg" alt="" class="col-2">
+            <img src="assets/images/picture_5.jpeg" alt="" class="col-2">
+            <img src="assets/images/picture_1.jpg" alt="" class="col-2">
         </div>
-    </section>
-</div>
-</body>
-<footer>
+    </div>
+</section>
+<footer id="FOOTER">
     <div class="visible-xl container">
-        <div class="row" style="justify-content: center; align-items: center">
+        <div class="row" style="justify-content: center; align-items: center; margin-bottom: 48px">
             <img src="assets/icons/big_logo.svg" alt="" class="col-3">
             <div class="col-7 flex-row">
                 <div class="flex-column" style="width: 100%">
-                    <h1>Pricing</h1>
+                    <h3>Pricing</h3>
                     <a>Bikes</a>
                     <a>Discounts</a>
                     <a>Terms of Use</a>
                 </div>
                 <div class="flex-column" style="width: 100%">
-                    <h1>Pricing</h1>
+                    <h3>Pricing</h3>
                     <a>Bikes</a>
                     <a>Discounts</a>
                     <a>Terms of Use</a>
                 </div>
                 <div class="flex-column" style="width: 100%">
-                    <h1>Pricing</h1>
+                    <h3>Pricing</h3>
                     <a>Bikes</a>
                     <a>Discounts</a>
                     <a>Terms of Use</a>
@@ -357,16 +360,17 @@
             </div>
         </div>
         <div style="width: 100%; background: #454955; height: 1px; margin-bottom: 24px; margin-top: 24px"></div>
-        <div class="row" style="justify-content: center; align-items: center">
+        <div class="row" style="justify-content: center; align-items: center; margin-top: 48px">
             <div class="box col-6">
-                <h2>© BicycleRide, Inc. 2024. We love our users!</h2>
+                <h3>© BicycleRide, Inc. 2024. We love our users!</h3>
             </div>
             <h3 class="col-2">Follow us:</h3>
-            <img src="assets/images/hero_picture_alt.jpg" alt="" class="col-1">
-            <img src="assets/images/hero_picture_alt.jpg" alt="" class="col-1">
-            <img src="assets/images/hero_picture_alt.jpg" alt="" class="col-1">
-            <img src="assets/images/hero_picture_alt.jpg" alt="" class="col-1">
+            <img src="assets/images/telegram.png" alt="" class="col-1">
+            <img src="assets/images/instagram.webp" alt="" class="col-1">
+            <img src="assets/images/vk.png" alt="" class="col-1">
+            <img src="assets/images/youtube.webp" alt="" class="col-1">
         </div>
     </div>
 </footer>
+</body>
 </html>
