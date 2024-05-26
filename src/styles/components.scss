@@ -100,3 +100,33 @@ $buttons-gap: 16px;
   justify-content: center;
   column-gap: $buttons-gap;
 }
+
+.hero {
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-content {
+  @extend .flex-column;
+
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#hero {
+  .hero {
+    .container {
+      height: 100%;
+
+      .row {
+        height: 100%;
+
+        .hero-content {
+          height: 100%;
+        }
+      }
+    }
+  }
+}

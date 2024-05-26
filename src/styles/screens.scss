@@ -1,5 +1,5 @@
 @import "bootstrap/scss/bootstrap";
-@import "theme";
+@import "common/theme";
 
 // [Padding sizes]
 $size-xl: 64px;
@@ -32,6 +32,14 @@ $size-xs: 12px;
   span {
     font-family: $font-display;
   }
+
+  .hero {
+    height: 700px;
+
+    .hero-content {
+      row-gap: $size-xl;
+    }
+  }
 }
 
 .visible-lg {
@@ -57,6 +65,10 @@ $size-xs: 12px;
 
   span {
     font-family: $font-display;
+  }
+
+  .hero-content {
+    row-gap: $size-lg;
   }
 }
 
