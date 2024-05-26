@@ -80,3 +80,23 @@ $card-padding: 16px;
   background-repeat: no-repeat;
   border-radius: 50%;
 }
+
+.header-navigation {
+  @extend .flex-row;
+
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-navigation-item {
+  @extend .box;
+}
+
+$buttons-gap: 16px;
+
+.header-buttons {
+  @extend .header-navigation;
+
+  justify-content: center;
+  column-gap: $buttons-gap;
+}
