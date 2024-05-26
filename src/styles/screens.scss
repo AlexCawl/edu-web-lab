@@ -1,5 +1,5 @@
 @import "bootstrap/scss/bootstrap";
-@import "theme";
+@import "common/theme";
 
 // [Padding sizes]
 $size-xl: 64px;
@@ -32,6 +32,14 @@ $size-xs: 12px;
   span {
     font-family: $font-display;
   }
+
+  .hero {
+    height: 700px;
+
+    .hero-content {
+      row-gap: $size-xl;
+    }
+  }
 }
 
 .visible-lg {
@@ -57,6 +65,10 @@ $size-xs: 12px;
 
   span {
     font-family: $font-display;
+  }
+
+  .hero-content {
+    row-gap: $size-lg;
   }
 }
 
@@ -84,6 +96,15 @@ $size-xs: 12px;
   span {
     font-family: $font-display;
   }
+
+  .hero {
+    height: 300px;
+
+    .hero-content {
+      row-gap: $size-md;
+      padding-bottom: 16px;
+    }
+  }
 }
 
 .visible-sm {
@@ -110,6 +131,15 @@ $size-xs: 12px;
   span {
     font-family: $font-display;
   }
+
+  .hero {
+    height: 200px;
+
+    .hero-content {
+      row-gap: $size-sm;
+      padding-top: 12px;
+    }
+  }
 }
 
 .visible-xs {
@@ -135,6 +165,15 @@ $size-xs: 12px;
 
   span {
     font-family: $font-display;
+  }
+
+  .hero {
+    height: 150px;
+
+    .hero-content {
+      row-gap: $size-sm;
+      padding-top: 12px;
+    }
   }
 }
 

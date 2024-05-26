@@ -1,4 +1,4 @@
-@import "common/theme";
+@import "theme";
 
 :root {
   font-family: $font-text;
@@ -48,7 +48,7 @@
 }
 
 .hero-img-container {
-  background-image: url("../../assets/images/hero_picture.jpg");
+  background-image: url("../../../assets/images/hero_picture.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
