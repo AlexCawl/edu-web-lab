@@ -1,0 +1,82 @@
+@import "common/theme";
+
+$button-radius: 16px;
+$button-padding: 12px;
+
+.base-button {
+  border: none;
+  font-family: $font-title;
+  border-radius: $button-radius;
+  padding: $button-padding;
+}
+
+.action-button {
+  @extend .base-button;
+
+  background-color: $color-green;
+  color: $color-light-gray;
+
+  &:hover {
+    background-color: $color-light-green;
+    transition: all 1s ease;
+  }
+}
+
+.outline-button {
+  @extend .base-button;
+
+  border-style: solid;
+  border-color: $color-light-gray;
+  background-color: $color-light-gray;
+  color: $color-black;
+
+  &:hover {
+    border-color: $color-light-green;
+    transition: all 1s ease;
+  }
+}
+
+.base-text {
+  font-family: $font-text;
+  color: $color-black;
+}
+
+.accent-text {
+  @extend .base-text;
+
+  font-family: $font-title;
+  color: $color-light-green;
+}
+
+.image-text {
+  @extend .base-text;
+
+  font-family: $font-title;
+  color: $color-light-gray;
+}
+
+$card-radius: 16px;
+$card-padding: 16px;
+
+.item-card {
+  @extend .flex-column;
+
+  border: thin solid $color-light-green;
+  border-radius: $card-radius;
+  padding: $card-padding;
+  background-color: $color-light-gray;
+  row-gap: $card-padding;
+}
+
+.review-card {
+  @extend .flex-column;
+
+  row-gap: $card-padding;
+}
+
+.review-image {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+}
