@@ -134,3 +134,9 @@ $buttons-gap: 16px;
   align-items: center;
   justify-content: center;
 }
+
+.horizontal-line {
+  width: 100%;
+  height: 1px;
+  background-color: $color-gray;
+}

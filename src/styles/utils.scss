@@ -33,3 +33,19 @@
     }
   }
 }
+
+#reviews {
+  .visible-lg {
+    .container {
+      img {
+        height: 400px;
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+
+      .flex-column {
+        row-gap: 16px;
+      }
+    }
+  }
+}

@@ -33,6 +33,19 @@
   .feature-card {
     row-gap: 16px;
   }
+
+  .item-card {
+    row-gap: 16px;
+  }
+
+  .review-card {
+    row-gap: 16px;
+  }
+
+  .review-image {
+    width: 196px;
+    height: 196px
+  }
 }
 
 @include media-breakpoint-only(xl) {
@@ -61,6 +74,19 @@
 
   .feature-card {
     row-gap: 16px;
+  }
+
+  .item-card {
+    row-gap: 16px;
+  }
+
+  .review-card {
+    row-gap: 16px;
+  }
+
+  .review-image {
+    width: 128px;
+    height: 128px
   }
 }
 
@@ -99,6 +125,10 @@
   .feature-card {
     row-gap: 16px;
   }
+
+  .item-card {
+    row-gap: 16px;
+  }
 }
 
 @include media-breakpoint-only(md) {
@@ -112,7 +142,7 @@
 
   // Bootstrap
   .row {
-    row-gap: 16px;
+    row-gap: 20px;
   }
 
   // Custom
@@ -136,6 +166,19 @@
   .feature-card {
     row-gap: 8px;
   }
+
+  .item-card {
+    row-gap: 8px;
+  }
+
+  .review-card {
+    row-gap: 4px;
+  }
+
+  .review-image {
+    width: 128px;
+    height: 128px
+  }
 }
 
 @include media-breakpoint-only(sm) {
@@ -149,7 +192,7 @@
 
   // Bootstrap
   .row {
-    row-gap: 12px;
+    row-gap: 16px;
   }
 
   // Custom
@@ -173,6 +216,23 @@
   .feature-card {
     row-gap: 6px;
   }
+
+  .item-card {
+    row-gap: 6px;
+  }
+
+  .item-card {
+    row-gap: 8px;
+  }
+
+  .review-card {
+    row-gap: 4px;
+  }
+
+  .review-image {
+    width: 96px;
+    height: 96px
+  }
 }
 
 @include media-breakpoint-only(xs) {
@@ -186,7 +246,7 @@
 
   // Bootstrap
   .row {
-    row-gap: 8px;
+    row-gap: 12px;
   }
 
   // Custom
@@ -209,5 +269,26 @@
 
   .feature-card {
     row-gap: 4px;
+  }
+
+  .item-card {
+    row-gap: 4px;
+  }
+
+  .item-card {
+    row-gap: 6px;
+  }
+
+  .item-card {
+    row-gap: 8px;
+  }
+
+  .review-card {
+    row-gap: 4px;
+  }
+
+  .review-image {
+    width: 96px;
+    height: 96px
   }
 }
