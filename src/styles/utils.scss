@@ -1,0 +1,35 @@
+@import "components";
+
+#hero {
+  .hero {
+    .container {
+      height: 100%;
+
+      .row {
+        height: 100%;
+
+        .hero-content {
+          height: 100%;
+        }
+      }
+    }
+  }
+}
+
+#assortment {
+  .visible-xl {
+    .container {
+      h1 {
+        text-align: center
+      }
+
+      h2 {
+        text-align: center
+      }
+
+      .flex-column {
+        row-gap: 16px;
+      }
+    }
+  }
+}

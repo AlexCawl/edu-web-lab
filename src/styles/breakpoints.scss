@@ -29,6 +29,10 @@
   .hero-content {
     row-gap: 28px;
   }
+
+  .feature-card {
+    row-gap: 16px;
+  }
 }
 
 @include media-breakpoint-only(xl) {
@@ -69,6 +73,11 @@
     --section-margin-px: 28px;
   }
 
+  // Bootstrap
+  .row {
+    row-gap: 24px;
+  }
+
   // Custom
   .base-button {
     border-radius: 12px;
@@ -86,6 +95,10 @@
     align-items: center;
     padding-bottom: 36px;
   }
+
+  .feature-card {
+    row-gap: 16px;
+  }
 }
 
 @include media-breakpoint-only(md) {
@@ -95,6 +108,11 @@
     --header-padding-px: 8px;
     --footer-padding-px: 64px;
     --section-margin-px: 24px;
+  }
+
+  // Bootstrap
+  .row {
+    row-gap: 16px;
   }
 
   // Custom
@@ -114,6 +132,10 @@
     align-items: start;
     padding-top: 24px;
   }
+
+  .feature-card {
+    row-gap: 8px;
+  }
 }
 
 @include media-breakpoint-only(sm) {
@@ -123,6 +145,11 @@
     --header-padding-px: 12px;
     --footer-padding-px: 64px;
     --section-margin-px: 18px;
+  }
+
+  // Bootstrap
+  .row {
+    row-gap: 12px;
   }
 
   // Custom
@@ -142,6 +169,10 @@
     align-items: start;
     padding-top: 16px;
   }
+
+  .feature-card {
+    row-gap: 6px;
+  }
 }
 
 @include media-breakpoint-only(xs) {
@@ -151,6 +182,11 @@
     --header-padding-px: 8px;
     --footer-padding-px: 64px;
     --section-margin-px: 12px;
+  }
+
+  // Bootstrap
+  .row {
+    row-gap: 8px;
   }
 
   // Custom
@@ -169,5 +205,9 @@
     align-items: center;
     padding-top: 12px;
     padding-bottom: 12px;
+  }
+
+  .feature-card {
+    row-gap: 4px;
   }
 }
