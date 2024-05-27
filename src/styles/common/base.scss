@@ -25,19 +25,19 @@ section {
 
 h1 {
   font-size: calc(var(--font-size-px) * 1.5);
-  font-family: $title;
+  font-family: $font-title;
   margin: 0;
 }
 
 h2 {
   font-size: calc(var(--font-size-px) * 1.25);
-  font-family: $title;
+  font-family: $font-title;
   margin: 0;
 }
 
 h3 {
   font-size: var(--font-size-px);
-  font-family: $title;
+  font-family: $font-title;
   margin: 0;
 }
 
