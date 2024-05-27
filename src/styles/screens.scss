@@ -1,223 +1,26 @@
 @import "bootstrap/scss/bootstrap";
 @import "common/theme";
 
-// [Padding sizes]
-$size-xl: 64px;
-$size-lg: 36px;
-$size-md: 24px;
-$size-sm: 16px;
-$size-xs: 12px;
+.visible-xxl {
+  @extend .d-none, .d-xxl-block;
+}
 
 .visible-xl {
-  @extend .d-none, .d-xl-block;
-
-  font-size: $font-size-xl;
-  padding: $size-xl 0 $size-xl 0;
-
-  h1 {
-    font-size: calc($font-size-xl * 1.5);
-    font-family: $title;
-  }
-
-  h2 {
-    font-size: calc($font-size-xl * 1.25);
-    font-family: $title;
-  }
-
-  h3 {
-    font-size: $font-size-xl;
-    font-family: $title;
-  }
-
-  span {
-    font-family: $font-display;
-  }
-
-  .hero {
-    height: 700px;
-
-    .hero-content {
-      row-gap: $size-xl;
-    }
-  }
+  @extend .d-none, .d-xl-block, .d-xxl-none;
 }
 
 .visible-lg {
   @extend .d-none, .d-lg-block, .d-xl-none;
-
-  font-size: $font-size-lg;
-  padding: $size-lg 0 $size-lg 0;
-
-  h1 {
-    font-size: calc($font-size-lg * 1.5);
-    font-family: $title;
-  }
-
-  h2 {
-    font-size: calc($font-size-lg * 1.25);
-    font-family: $title;
-  }
-
-  h3 {
-    font-size: $font-size-lg;
-    font-family: $title;
-  }
-
-  span {
-    font-family: $font-display;
-  }
-
-  .hero-content {
-    row-gap: $size-lg;
-  }
 }
 
 .visible-md {
   @extend .d-none, .d-md-block, .d-lg-none;
-
-  font-size: $font-size-md;
-  padding: $size-md 0 $size-md 0;
-
-  h1 {
-    font-size: calc($font-size-md * 1.5);
-    font-family: $title;
-  }
-
-  h2 {
-    font-size: calc($font-size-md * 1.25);
-    font-family: $title;
-  }
-
-  h3 {
-    font-size: $font-size-md;
-    font-family: $title;
-  }
-
-  span {
-    font-family: $font-display;
-  }
-
-  .hero {
-    height: 300px;
-
-    .hero-content {
-      row-gap: $size-md;
-      padding-bottom: 16px;
-    }
-  }
 }
 
 .visible-sm {
   @extend .d-none, .d-sm-block, .d-md-none;
-
-  font-size: $font-size-sm;
-  padding: $size-sm 0 $size-sm 0;
-
-  h1 {
-    font-size: calc($font-size-sm * 1.5);
-    font-family: $title;
-  }
-
-  h2 {
-    font-size: calc($font-size-sm * 1.25);
-    font-family: $title;
-  }
-
-  h3 {
-    font-size: $font-size-sm;
-    font-family: $title;
-  }
-
-  span {
-    font-family: $font-display;
-  }
-
-  .hero {
-    height: 200px;
-
-    .hero-content {
-      row-gap: $size-sm;
-      padding-top: 12px;
-    }
-  }
 }
 
 .visible-xs {
   @extend .d-block, .d-sm-none;
-
-  font-size: $font-size-xs !important;
-  padding: $size-xs 0 $size-xs 0;
-
-  h1 {
-    font-size: calc($font-size-xs * 1.5);
-    font-family: $title;
-  }
-
-  h2 {
-    font-size: calc($font-size-xs * 1.25);
-    font-family: $title;
-  }
-
-  h3 {
-    font-size: $font-size-xs;
-    font-family: $title;
-  }
-
-  span {
-    font-family: $font-display;
-  }
-
-  .hero {
-    height: 150px;
-
-    .hero-content {
-      row-gap: $size-sm;
-      padding-top: 12px;
-    }
-  }
-}
-
-// [Header padding sizes]
-$h-size-xl: 36px;
-$h-size-lg: 24px;
-$h-size-md: 20px;
-$h-size-sm: 16px;
-$h-size-xs: 12px;
-
-#header .visible-xl {
-  padding: $h-size-xl 0 $h-size-xl 0;
-}
-
-#header .visible-lg {
-  padding: $h-size-lg 0 $h-size-lg 0;
-}
-
-#header .visible-md {
-  padding: $h-size-md 0 $h-size-md 0;
-}
-
-#header .visible-sm {
-  padding: $h-size-sm 0 $h-size-sm 0;
-}
-
-#header .visible-xs {
-  padding: $h-size-xs 0 $h-size-xs 0;
-}
-
-#features {
-  .visible-xl .container .row {
-    row-gap: $size-xl;
-
-    .feature-card {
-      row-gap: calc($size-xl / 3);
-    }
-  }
-
-  .visible-lg .container .row {
-    row-gap: $size-lg;
-
-    .feature-card {
-      row-gap: calc($size-lg / 2);
-    }
-  }
 }
