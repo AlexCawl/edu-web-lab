@@ -1,5 +1,5 @@
 @import "bootstrap/scss/bootstrap";
-@import "common/theme";
+@import "components";
 
 @include media-breakpoint-only(xxl) {
   // Base
@@ -26,6 +26,11 @@
   }
 
   // Custom
+  .base-button {
+    border-radius: 16px;
+    padding: 8px;
+  }
+
   .hero {
     height: 500px;
   }
@@ -49,6 +54,11 @@
   }
 
   // Custom
+  .base-button {
+    border-radius: 12px;
+    padding: 6px;
+  }
+
   .hero-content {
     row-gap: 16px;
   }
@@ -64,6 +74,11 @@
   }
 
   // Custom
+  .base-button {
+    border-radius: 10px;
+    padding: 5px;
+  }
+
   .hero {
     height: 300px;
   }
@@ -79,6 +94,11 @@
   }
 
   // Custom
+  .base-button {
+    border-radius: 10px;
+    padding: 4px;
+  }
+
   .hero {
     height: 250px;
   }
@@ -94,6 +114,11 @@
   }
 
   // Custom
+  .base-button {
+    border-radius: 8px;
+    padding: 4px;
+  }
+
   .hero {
     height: 200px;
   }
