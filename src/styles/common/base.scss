@@ -1,0 +1,63 @@
+@import "theme";
+
+body {
+  @extend .flex-column;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  box-shadow: 0 -6px 10px 5px $color-gray;
+  background: white;
+  padding-top: var(--header-padding-px);
+  padding-bottom: var(--header-padding-px);
+}
+
+footer {
+  padding-top: var(--footer-padding-px);
+  padding-bottom: var(--footer-padding-px);
+}
+
+section {
+  margin-top: var(--section-margin-px);
+  margin-bottom: var(--section-margin-px);
+}
+
+h1 {
+  font-size: calc(var(--font-size-px) * 1.5);
+  font-family: $font-title;
+  margin: 0;
+}
+
+h2 {
+  font-size: calc(var(--font-size-px) * 1.25);
+  font-family: $font-title;
+  margin: 0;
+}
+
+h3 {
+  font-size: var(--font-size-px);
+  font-family: $font-title;
+  margin: 0;
+}
+
+span {
+  font-size: var(--font-size-px);
+  font-family: $font-display;
+}
+
+p {
+  font-size: var(--font-size-px);
+  font-family: $font-text;
+  margin: 0;
+}
+
+a {
+  font-size: var(--font-size-px);
+  font-family: $font-display;
+}
+
+button {
+  font-size: var(--font-size-px);
+  font-family: $font-title;
+}

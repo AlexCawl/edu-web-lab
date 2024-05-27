@@ -1,0 +1,26 @@
+@import "bootstrap/scss/bootstrap";
+@import "common/theme";
+
+.visible-xxl {
+  @extend .d-none, .d-xxl-block;
+}
+
+.visible-xl {
+  @extend .d-none, .d-xl-block, .d-xxl-none;
+}
+
+.visible-lg {
+  @extend .d-none, .d-lg-block, .d-xl-none;
+}
+
+.visible-md {
+  @extend .d-none, .d-md-block, .d-lg-none;
+}
+
+.visible-sm {
+  @extend .d-none, .d-sm-block, .d-md-none;
+}
+
+.visible-xs {
+  @extend .d-block, .d-sm-none;
+}
