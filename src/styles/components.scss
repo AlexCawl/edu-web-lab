@@ -140,3 +140,14 @@ $buttons-gap: 16px;
   height: 1px;
   background-color: $color-gray;
 }
+
+.footer-buttons {
+  @extend .flex-column;
+}
+
+.footer-topics {
+  @extend .flex-row;
+}
+
+.social-media-icon {
+}
