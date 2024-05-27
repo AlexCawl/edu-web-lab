@@ -49,3 +49,55 @@
     }
   }
 }
+
+#about {
+  .visible-xl {
+    .container {
+      .box .flex-column {
+        row-gap: 16px;
+
+        .row {
+          row-gap: 16px;
+        }
+      }
+    }
+  }
+
+  .visible-lg {
+    .container {
+      .box .flex-column {
+        row-gap: 16px;
+
+        .flex-row {
+          justify-content: flex-start;
+          align-items: center;
+          column-gap: 16px;
+
+          img {
+            width: 64px;
+            height: 64px;
+          }
+        }
+      }
+    }
+  }
+
+  .d-block, .d-lg-none {
+    .container {
+      h1 {
+        text-align: center;
+      }
+
+      .flex-row {
+        justify-content: flex-start;
+        align-items: center;
+        column-gap: 16px;
+
+        img {
+          width: 48px;
+          height: 48px;
+        }
+      }
+    }
+  }
+}
