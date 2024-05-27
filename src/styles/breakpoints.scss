@@ -9,6 +9,12 @@
     --footer-padding-px: 64px;
     --section-margin-px: 36px;
   }
+
+  // Custom
+  .base-button {
+    border-radius: 20px;
+    padding: 16px;
+  }
 }
 
 @include media-breakpoint-only(xl) {
