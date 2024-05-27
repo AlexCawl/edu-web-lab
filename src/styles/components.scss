@@ -115,6 +115,10 @@ $buttons-gap: 16px;
   align-items: flex-start;
 }
 
+.feature-card {
+  @extend .flex-column;
+}
+
 #hero {
   .hero {
     .container {

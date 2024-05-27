@@ -203,3 +203,21 @@ $h-size-xs: 12px;
 #header .visible-xs {
   padding: $h-size-xs 0 $h-size-xs 0;
 }
+
+#features {
+  .visible-xl .container .row {
+    row-gap: $size-xl;
+
+    .feature-card {
+      row-gap: calc($size-xl / 3);
+    }
+  }
+
+  .visible-lg .container .row {
+    row-gap: $size-lg;
+
+    .feature-card {
+      row-gap: calc($size-lg / 2);
+    }
+  }
+}
