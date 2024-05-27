@@ -119,17 +119,15 @@ $buttons-gap: 16px;
   @extend .flex-column;
 }
 
-#hero {
-  .hero {
-    .container {
+.hero {
+  .container {
+    height: 100%;
+
+    .row {
       height: 100%;
 
-      .row {
+      .hero-content {
         height: 100%;
-
-        .hero-content {
-          height: 100%;
-        }
       }
     }
   }
