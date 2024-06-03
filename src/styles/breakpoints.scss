@@ -51,7 +51,7 @@
 @include media-breakpoint-only(xl) {
   // Base
   :root {
-    --font-size-px: 20px;
+    --font-size-px: 22px;
     --header-padding-px: 12px;
     --footer-padding-px: 64px;
     --section-margin-px: 32px;
@@ -93,7 +93,7 @@
 @include media-breakpoint-only(lg) {
   // Base
   :root {
-    --font-size-px: 16px;
+    --font-size-px: 20px;
     --header-padding-px: 8px;
     --footer-padding-px: 64px;
     --section-margin-px: 28px;
@@ -134,7 +134,7 @@
 @include media-breakpoint-only(md) {
   // Base
   :root {
-    --font-size-px: 14px;
+    --font-size-px: 18px;
     --header-padding-px: 8px;
     --footer-padding-px: 64px;
     --section-margin-px: 24px;
@@ -184,7 +184,7 @@
 @include media-breakpoint-only(sm) {
   // Base
   :root {
-    --font-size-px: 12px;
+    --font-size-px: 16px;
     --header-padding-px: 12px;
     --footer-padding-px: 64px;
     --section-margin-px: 18px;
@@ -238,7 +238,7 @@
 @include media-breakpoint-only(xs) {
   // Base
   :root {
-    --font-size-px: 8px;
+    --font-size-px: 12px;
     --header-padding-px: 8px;
     --footer-padding-px: 64px;
     --section-margin-px: 12px;

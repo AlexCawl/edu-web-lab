@@ -36,7 +36,7 @@ h2 {
 }
 
 h3 {
-  font-size: var(--font-size-px);
+  font-size: calc(var(--font-size-px) * 1.15);
   font-family: $font-title;
   margin: 0;
 }
